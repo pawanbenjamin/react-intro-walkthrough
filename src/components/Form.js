@@ -20,7 +20,7 @@ const Form = ({ setName }) => {
         ></input>
         <button type="submit">Sumbit!</button>
       </form>
-      <h1>{currName}</h1>
+      <h1>We're gonna change our name to: {currName}</h1>
     </>
   );
 };
