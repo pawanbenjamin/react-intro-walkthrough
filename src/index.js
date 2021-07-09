@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import { Count } from "./components/Count.js";
 import Clicker from "./components/Clicker";
 import Form from "./components/Form.js";
+import Pokemon from "./components/Pokemon.js";
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -22,6 +23,7 @@ const App = () => {
       <Clicker inc={increment} />
       <Count count={count} name={name} />
       <Form setName={setName} />
+      <Pokemon />
     </>
   );
 };
