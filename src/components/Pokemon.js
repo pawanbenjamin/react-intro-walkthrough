@@ -18,7 +18,6 @@ const Pokemon = () => {
         return (
           <div key={i}>
             <h1 key={i}>{poke.name}</h1>
-            {/* <img src={poke.sprites.back_default} /> */}
           </div>
         );
       })}
